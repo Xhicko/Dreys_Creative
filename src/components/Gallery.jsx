@@ -88,7 +88,7 @@ export default function Gallery() {
                     <img
                       src={item.src}
                       alt={item.alt}
-                      className="w-full h-96  transition-transform  shadow-2xl	 duration-300 hover:scale-105"
+                      className="w-full h-72  transition-transform  shadow-2xl	 duration-300 hover:scale-105"
                     />
                   </Button>
                 </DialogTrigger>
