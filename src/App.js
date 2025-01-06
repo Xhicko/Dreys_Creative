@@ -7,6 +7,7 @@ import Gallery from "./components/Gallery";
 import Services from "./components/Services";
 import Connect from "./components/Connect";
 import Footer from "./components/Footer";
+import BackToTop from "./components/Backtotop";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
          <Services />
          <Connect />
          <Footer />
+         <BackToTop />
       </BrowserRouter>
    </main>
   );

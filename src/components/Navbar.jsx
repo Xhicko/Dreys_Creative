@@ -2,6 +2,8 @@ import { useState, useEffect, useRef } from 'react'
 import {Link} from 'react-router-dom'
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from 'lucide-react'
+// import Image from './Image'
+// import Logo from '../Images/Logo.png'
 
 const navItems = [
   { href: "#hero", label: "Home" },
