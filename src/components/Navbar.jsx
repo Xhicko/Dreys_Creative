@@ -41,20 +41,32 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen)
 
   const scrollToSection = (e, href) => {
-    e.preventDefault()
-    const element = document.querySelector(href)
-    if (element) {
-      const navbarHeight = document.querySelector('nav').offsetHeight
-      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset
-      const offsetPosition = elementPosition - navbarHeight
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      })
-      setIsOpen(false)
-    }
-  }
+   e.preventDefault();
+   const element = document.querySelector(href);
+ 
+   if (element) {
+     const navbarHeight = document.querySelector('nav').offsetHeight;
+     const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+     const offsetPosition = elementPosition - navbarHeight;
+ 
+     // Scroll smoothly to the target position
+     window.scrollTo({
+       top: offsetPosition,
+       behavior: 'smooth',
+     });
+ 
+     // Wait for the scrolling to complete before closing the menu
+     const handleScroll = () => {
+       if (Math.abs(window.pageYOffset - offsetPosition) < 5) {
+         setIsOpen(false);
+         window.removeEventListener('scroll', handleScroll);
+       }
+     };
+ 
+     window.addEventListener('scroll', handleScroll);
+   }
+ };
+ 
 
   return (
     <motion.nav
