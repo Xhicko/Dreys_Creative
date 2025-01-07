@@ -7,7 +7,7 @@ import Image from "./Image" // Import the custom Image component
 
 // Import Images (using placeholder URLs)
 import DreysCreative from "../Images/DREY_CREATIVE.jpg"
-import Creativity from "../Images/MY_CREATIVITY_ROOM.jpg"
+import MMM from "../Images/mnm.jpg"
 import Creativity2 from "../Images/MY_CREATIVITY_ROOM2.jpg"
 import Creativity3 from "../Images/MY_CREATIVITY_ROOM3.jpg"
 import Megan from "../Images/MISS_MEGAN ART.jpg"
@@ -16,10 +16,14 @@ import Timeless from "../Images/ONYI_TIMELESS_CUISINE.jpg"
 import Poolfest from "../Images/POOL_FEST_GRAPHICS.jpg"
 import Sacs from "../Images/SACS.jpg"
 import Sips from "../Images/SIP_&_PAINT.jpg"
+import Marketplace from "../Images/MARKET_GIRL.jpg"
+import KlafPlug from "../Images/KLAFPLUG.jpg"
+import GameFiesta from "../Images/GAME FIESTA.jpg"
+
 
 const galleryItems = [
   { id: 1, src: DreysCreative, alt: "Dreys Creative" },
-  { id: 2, src: Creativity, alt: "Creativity Room 1" },
+  { id: 2, src: MMM, alt: "M&M" },
   { id: 3, src: Creativity2, alt: "Creativity Room 2" },
   { id: 4, src: Creativity3, alt: "Creativity Room 3" },
   { id: 5, src: Megan, alt: "Miss Megan Art" },
@@ -28,6 +32,9 @@ const galleryItems = [
   { id: 8, src: Poolfest, alt: "Pool Fest" },
   { id: 9, src: Sacs, alt: "Sacs" },
   { id: 10, src: Sips, alt: "Sips and Paint" },
+  { id: 11, src: Marketplace, alt: "Market Place" },
+  { id: 12, src: KlafPlug, alt: "Klaf Plug" },
+  { id: 13, src: GameFiesta, alt: "Game Fiesta" },
 ]
 
 export default function Gallery() {
