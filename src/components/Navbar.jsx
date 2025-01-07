@@ -69,7 +69,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold text-[#121314]">Dreys Grafix</Link>
+          <Link href="/" className="text-1xl font-bold text-[#121314]">Dreys Grafix</Link>
           <div className="hidden md:flex space-x-4">
             {navItems.map((item) => (
               <motion.a

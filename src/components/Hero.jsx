@@ -2,7 +2,7 @@ import {Button} from "./ui/button.jsx"
 import { motion } from "framer-motion"
 import { ChevronDown } from 'lucide-react'
 import Image from "./Image.jsx"
-import img from "../Images/Hero_Image.png"
+import img from "../Images/Hero_Image.jpg"
 
 export default function Hero() {
   return (
@@ -21,7 +21,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-5xl md:text-7xl font-bold mb-4 text-white drop-shadow-lg text-shadow-lg"
+          className="text-5xl md:text-7xl font-bold mb-4 text-white drop-shadow-[0_5px_10px_rgba(0,0,0,0.7)] text-shadow-lg"
         >
           Drey's Grafix
         </motion.h1>
@@ -29,7 +29,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-xl md:text-2xl mb-8 text-white drop-shadow text-shadow-md"
+          className="text-xl md:text-2xl mb-8 text-white drop-shadow-[0_5px_10px_rgba(0,0,0,0.7)] text-shadow-lg"
         >
         elevating brands through creative design & strategic marketing  
         </motion.p>
