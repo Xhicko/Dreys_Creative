@@ -19,6 +19,16 @@ import Sips from "../Images/SIP_&_PAINT.jpg"
 import Marketplace from "../Images/MARKET_GIRL.jpg"
 import KlafPlug from "../Images/KLAFPLUG.jpg"
 import GameFiesta from "../Images/GAME FIESTA.jpg"
+import RootedRythmA1 from "../Images/rooted_rythm_A1.jpg"
+import BurialPosterA2 from "../Images/burial_Poster_Create_A2.jpg"
+import BlueOakA3 from "../Images/blue_oak_A3.jpg"
+import PreJoyA4 from "../Images/pre_joy_A4.jpg"
+import LukassVisualA5 from "../Images/lukass_visual_A5.jpg"
+import VelonixA6 from "../Images/VELONIX_A6.jpg"
+import VelonixA7 from "../Images/VELONIX_A7.jpg"
+import DavidoA8 from "../Images/davido_A8.jpg"
+import OsimhenA9 from "../Images/osimhen_A9.jpg"
+import DreyDecemberA10 from "../Images/drey_december_A10.jpg"
 
 
 const galleryItems = [
@@ -35,6 +45,16 @@ const galleryItems = [
   { id: 11, src: Marketplace, alt: "Market Place" },
   { id: 12, src: KlafPlug, alt: "Klaf Plug" },
   { id: 13, src: GameFiesta, alt: "Game Fiesta" },
+  { id: 14, src: RootedRythmA1, alt: "Rooted Rythm" },
+  { id: 15, src: BurialPosterA2, alt: "Burial Poster" },
+  { id: 16, src: BlueOakA3, alt: "Blue Oak " },
+  { id: 17, src: PreJoyA4, alt: "Pre Joy " },
+  { id: 18, src: LukassVisualA5, alt: "Lukass Visual" },
+  { id: 19, src: VelonixA6, alt: "Velonix" },
+  { id: 20, src: VelonixA7, alt: "Velonix" },
+  { id: 21, src: DavidoA8, alt: "Davido" },
+  { id: 22, src: OsimhenA9, alt: "Osimhen" },
+  { id: 23, src: DreyDecemberA10, alt: "December" },
 ]
 
 export default function Gallery() {
